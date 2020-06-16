@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * { margin: 0;
+            padding: 0;
+            box-sizing: border-box;}
+
+            #title {
+                padding-top: 10px;
+                margin-top:  10px;
+                padding-left: 10px;
+                font-size: 24px;
+            }
+
+
+            .tab1 {
+                float: left;
+                width: 32%;
+                border: 1px solid white;
+                margin: 10px;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            .tab1 ul li {
+              border: 1px solid rgb(204, 203, 203);
+              list-style-type: none;
+            }
+
+            .li1-1, .li3-1 { 
+                background-color: black;
+                padding: 32px 16px;
+                color: white;
+                font-size: 28px;
+                }
+
+            .li2-1 { 
+                background-color: green;
+                padding: 32px 16px;
+                color: white;
+                font-size: 28px;
+                }
+
+            .li1-2, .li2-2, .li3-2, .li1-3, .li1-4, .li2-3, .li2-4, .li3-3, .li3-4 {
+                padding: 16px;
+            }
+
+            .li1-5, .li2-5, .li3-5 {
+                padding: 24px;
+            }
+
+            .li1-6, .li2-6, .li3-6 { 
+                background-color: rgb(230, 228, 228);
+                padding: 24px;
+            }
+
+            .li1-6 button { 
+                display: inline-block;
+                text-align: center;
+                width: 150px;
+                height: 50px;
+                color: white;
+                background-color: green;
+                border: none;
+                font-size: 14px;
+    
+            }
+
+            .li1-6 button:hover {
+                cursor: pointer;
+                background-color: gray;
+                color: black;
+            }
+
+            .li1-6 button:focus {
+                /* border 바깥라인 */
+                outline: none;
+            }
+
+            .li1-6 button:hover {
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+            }
+
+            .li2-6 button { 
+                display: inline-block;
+                text-align: center;
+                width: 150px;
+                height: 50px;
+                color: white;
+                background-color: green;
+                border: none;
+                font-size: 14px;
+    
+            }
+
+            .li2-6 button:hover {
+                cursor: pointer;
+                background-color: gray;
+                color: black;
+            }
+
+            .li2-6 button:focus {
+                /* border 바깥라인 */
+                outline: none;
+            }
+
+            .li2-6 button:hover {
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+            }
+
+            .li3-6 button { 
+                display: inline-block;
+                text-align: center;
+                width: 150px;
+                height: 50px;
+                color: white;
+                background-color: green;
+                border: none;
+                font-size: 14px;
+    
+            }
+
+            .li3-6 button:hover {
+                cursor: pointer;
+                background-color: gray;
+                color: black;
+            }
+
+            .li3-6 button:focus {
+                /* border 바깥라인 */
+                outline: none;
+            }
+
+            .li3-6 button:hover {
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+            }
+
+    
+    </style>
+</head>
+<body>
+    
+    <div id="title">
+        <h3>Responsive Pricing Tables</h3>
+    </div>
+    <div class="tab1">
+        <ul class="Basic">
+            <li class="li1-1"> Basic</li>
+            <li class="li1-2"> <strong>10GB</strong> Storage</li>
+            <li class="li1-3"> <strong>10</strong> Emails</li>
+            <li class="li1-4"> <strong>10</strong> Domains</li>
+            <li class="li1-4-1"> <strong>Endless</strong> Support</li>
+            <li class="li1-5"> <h2>$ 10</h2> <br>per month</li>
+            <li class="li1-6"> <button> sign up</button> </li>
+        </ul>
+    </div>
+
+    <div class="tab1">
+        <ul class="Pro">
+            <li class="li2-1"> Pro</li>
+            <li class="li2-2"> <strong>25GB</strong> Storage</li>
+            <li class="li2-3"> <strong>25</strong> Emails</li>
+            <li class="li2-4"> <strong>25</strong> Domains</li>
+            <li class="li2-4-1"> <strong>Endless</strong> Support</li>
+            <li class="li2-5"> <h2>$ 25</h2> <br>per month</li>
+            <li class="li2-6"> <button> sign up</button> </li>
+        </ul>
+    </div>
+
+    <div class="tab1">
+        <ul class="Premium">
+            <li class="li3-1"> Premium</li>
+            <li class="li3-2"> <strong>25GB</strong> Storage</li>
+            <li class="li3-3"> <strong>25</strong> Emails</li>
+            <li class="li3-4"> <strong>25</strong> Domains</li>
+            <li class="li3-4-1"> <strong>Endless</strong> Support</li>
+            <li class="li3-5"> <h2>$ 25</h2> <br>per month</li>
+            <li class="li3-6"> <button> sign up</button> </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
